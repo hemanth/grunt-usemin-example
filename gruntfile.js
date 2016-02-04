@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-
+	// load grunt tasks based on dependencies in package.json
 	require('load-grunt-tasks')(grunt);
 
 	grunt.config.init({
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 		'useminPrepare',
 		'concat',
 		'uglify',
-    'cssmin',
+		'cssmin',
 		'usemin'
     ]);
 }
